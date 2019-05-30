@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Work+Sans:400,500,700&display=swap');
+
+body {
+    background-color: #ffffff;
+    color: #515A5A;
+
+    /*    make sure you set family and size on body*/
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+
+/* Typography */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Arvo', serif;
+    margin: 10px 0 20px 0;
+}
+
+h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 10px 0;
+    letter-spacing: 1px;
+    color: #000000;
+    border-bottom: 5px solid #4c90a4;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+/* anchor styles */
+a {
+    color: #6BBFD6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #4C90A4;
+}
+
+a:active {
+    color: yellow;
+}
+
+/* main containers */
+
+.wrapper {
+    width: 980px;
+    /*    TOP RIGHT BOTTOM LEFT*/
+    margin: 0 auto;
+}
+
+header {
+
+    padding: 20px;
+}
+
+
+nav {
+    float: right;
+    margin-top: 40px;
+}
+
+nav ul {}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover,
+nav ul li a.currentpage {
+    background-color: #6BBFD6;
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    min-height: 400px;
+    background-image: url(../images/churchill-house-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-color: #f5f5f5;
+}
+
+main {
+    padding: 20px 0;
+    overflow: auto;
+}
+
+.text-container {
+    width: 70%;
+}
+
+footer {
+    padding: 20px;
+    background-color: #F5F5F5;
+    border-top: 1px solid #D6D6D6;
+}
+
+footer p {
+    font-size: 90%;
+    color: #000;
+}
+
+.leftimg {
+    width: 65%;
+    float: left;
+    border: 1px solid grey;
+    padding: 30px;
+    background-color: white;
+    margin: 20px 0;
+
+}
